@@ -1,0 +1,255 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#1E1E1E;
+  color: white;
+}
+.nav{
+  padding: 30px;
+  background-color: #282C33;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /*quebra quando esta diminuindo a tela*/
+}
+.navBar{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding-right: 50px;
+}
+.navName{
+  padding-left: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.navLink{
+  color: white;
+  font-size: 20px;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.section{
+  display: flex;
+  justify-content: space-evenly; 
+  flex-wrap: wrap; /*quebra quando esta diminuindo a tela*/
+}
+.nameDev{
+  color: white;
+  padding-bottom: 15px;
+}
+
+.btxCurriculo{
+  font-size: 16px;
+  border:2px solid;
+  border-color: #36cc28;
+  padding: 10px;
+  background-color: transparent;
+  padding: 6px 14px;
+}
+.inicioPortfolio{
+  padding-top: 150px;
+  text-align: center;
+}
+
+.icones{
+  width: 50px;
+  padding-top: 15px;
+  padding-left: 13px;
+}
+
+.imgMacaco{
+  padding-top: 100px;
+  width: 250px;
+}
+.projetos{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap; /*quebra quando esta diminuindo a tela*/
+}
+.projeto1{
+  border:2px solid;
+  border-color: white;
+  width: 310px;
+  height: 200px;
+  border-radius: 30px;
+  font-size: 30px;
+  background-color: #282C33;
+}
+.projeto2{
+  border:2px solid;
+  border-color: white;
+  width: 310px;
+  height: 200px;
+  border-radius: 30px;
+  font-size: 30px;
+  background-color: #282C33;
+}
+.clicouNoProjeto{
+  font-size: 24px;
+}
+#projets{
+  height: 197px;
+  width: 307px;
+  border-radius: 30px;
+}
+
+.tituloEmH1{
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 15px;
+
+}
+.sobreMim{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.paragrafoSobreMim{
+  font-size: 20px;
+}
+.quemSouEu{
+  padding-bottom: 15px;
+}
+.minhaFoto{
+  width: 250px; 
+  border-radius: 50px;
+}
+.imgHab{
+  width: 122px;
+  padding: 30px;
+}
+.imgTec{
+  width: 220px;
+}
+.imgTec2{
+  width: 180px;
+}
+.habilidades{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.habilidadeTitulo{
+  text-align: center;
+}
+.habOpcoes{
+  padding-bottom: 20px;
+}
+  
+.textoMotivacao{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.rashteg{
+  color: #36cc28;
+} 
+.footer{
+  background-color: #282C33;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.emailFooter{
+  padding-top: 15px;
+  font-size: 18px;
+}
+.nameCriador{
+  padding-top: 35px;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+.iconesContatoFooter{
+  display: flex;
+}
+.txtContatoFooter{
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+
+  @media(max-width:768px) {
+    .navName{
+      padding-bottom: 15px; 
+    }
+    .navLink{
+      display: flex; 
+    }
+  }
+@media(max-width:425px) {
+  .navLink{
+    text-align: center;
+    font-size: 16px;
+  }
+  .section{
+    font-size: 16px;
+  }
+  .sobreMim{
+    text-align: center;
+  }
+}
+@media(max-width:320px){
+  .navName{
+    font-size: 19px; 
+  }
+  .navLink{
+    font-size: 12px;
+  }
+  .section{
+    font-size: 15px;
+  }
+  .imgMacaco{
+    width: 190px;
+  }
+  .tituloEmH1{
+    font-size: 25px;
+  }
+  .projeto1{
+    border:2px solid;
+    border-color: white;
+    width: 260px;
+    height: 180px;
+    border-radius: 30px;
+    font-size: 22px;
+    background-color: #282C33;
+  }
+  .projeto2{
+    border:2px solid;
+    border-color: white;
+    width: 260px;
+    height: 180px;
+    border-radius: 30px;
+    font-size: 22px;
+    background-color: #282C33;
+  }
+  .sobreMim{
+    font-size: 13px;
+  }
+  .minhaFoto{
+    width: 210px;
+  }
+  .imgTec{
+    width: 160px;
+  }
+  .imgTec2{
+    width: 130px;
+  }
+  .iconesContatoFooter{
+    padding-bottom: 10px;
+  }
+} 
